@@ -55,15 +55,6 @@ public class MarkovRunner {
 
 	public void test() {
     	runMarkovOne();
-    	/*
-		FileResource fr = new FileResource();
-    	MarkovOne m = new MarkovOne();
-    	m.setTraining(fr.asString());
-		ArrayList<String> follows = m.getFollows("t");
-		System.out.println(follows.size());
-
-    	 */
-
 	}
 
 	public static void main(String[] args) {
