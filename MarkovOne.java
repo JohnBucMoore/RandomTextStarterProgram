@@ -22,23 +22,37 @@ public class MarkovOne {
             return "";
         }
         StringBuilder sb = new StringBuilder();
-        for(int k=0; k < numChars; k++){
-            int index = myRandom.nextInt(myText.length());
-            sb.append(myText.charAt(index));
+        int index = myRandom.nextInt(myText.length()-1);
+        String key = myText.substring(index, index + 1);
+        sb.append(key);
+
+        for(int k=0; k < numChars-1; k++){
+            ArrayList<String> follows = getFollows(key);
+            if (follows.size() == 0) {
+                break;
+            }
+            index = myRandom.nextInt(follows.size());
+            String next = follows.get(index);
+            sb.append(next);
+            key = next;
         }
 
         return sb.toString();
     }
 
     public ArrayList<String> getFollows(String key) {
-        ArrayList<String> following = new ArrayList<>();
-        String text = myText;
-        int followingChar;
-        while (text.contains(key)) {
-            followingChar = text.indexOf(key) + key.length();
-            following.add(text.substring(followingChar, followingChar+1));
-            text = text.substring(followingChar);
+        ArrayList<String> follows = new ArrayList<>();
+        int pos = 0;
+        while (pos < myText.length()) {
+            int start = myText.indexOf(key, pos);
+            if (start == -1 || (start + key.length() >= myText.length())) {
+                break;
+            }
+            pos = start + key.length();
+            String next = myText.substring(pos, pos + 1);
+            follows.add(next);
+
         }
-        return following;
+        return follows;
     }
 }

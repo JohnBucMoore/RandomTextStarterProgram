@@ -8,6 +8,7 @@
 
 import edu.duke.*;
 
+import java.io.File;
 import java.util.ArrayList;
 
 public class MarkovRunner {
@@ -53,13 +54,16 @@ public class MarkovRunner {
 	}
 
 	public void test() {
-    	//runMarkovOne();
+    	runMarkovOne();
+    	/*
+		FileResource fr = new FileResource();
     	MarkovOne m = new MarkovOne();
-    	m.setTraining("this is a test yes this is a test.");
-		ArrayList<String> following = m.getFollows("es");
-		for (String s : following) {
-			System.out.println(s);
-		}
+    	m.setTraining(fr.asString());
+		ArrayList<String> follows = m.getFollows("t");
+		System.out.println(follows.size());
+
+    	 */
+
 	}
 
 	public static void main(String[] args) {

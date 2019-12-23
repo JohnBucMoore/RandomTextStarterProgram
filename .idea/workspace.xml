@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76a88734-ded9-4cdb-8168-97ea37dc325c" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MarkovOne.java" afterDir="false" />
+    <list default="true" id="76a88734-ded9-4cdb-8168-97ea37dc325c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarkovOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarkovRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomTextStarterProgram/MarkovRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RandomTextStarterProgram/MarkovRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577055028360</updated>
       <workItem from="1577055034543" duration="156000" />
-      <workItem from="1577113760652" duration="8387000" />
+      <workItem from="1577113760652" duration="13473000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1577055177754</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577055177754</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add getFollows method">
+      <created>1577136056788</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577136056788</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,29 +120,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add getFollows method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add getFollows method" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="27" key="CommitChangelistDialog2" timestamp="1577130576322">
+    <state x="505" y="27" key="CommitChangelistDialog2" timestamp="1577136056167">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state x="505" y="27" key="CommitChangelistDialog2/0.23.1440.843@0.23.1440.843" timestamp="1577130576322" />
-    <state width="582" height="206" key="GridCell.Tab.0.bottom" timestamp="1577136016391">
+    <state x="505" y="27" key="CommitChangelistDialog2/0.23.1440.843@0.23.1440.843" timestamp="1577136056167" />
+    <state width="580" height="206" key="GridCell.Tab.0.bottom" timestamp="1577141589870">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="582" height="206" key="GridCell.Tab.0.bottom/0.23.1440.843@0.23.1440.843" timestamp="1577136016391" />
-    <state width="582" height="206" key="GridCell.Tab.0.center" timestamp="1577136016390">
+    <state width="580" height="206" key="GridCell.Tab.0.bottom/0.23.1440.843@0.23.1440.843" timestamp="1577141589870" />
+    <state width="580" height="206" key="GridCell.Tab.0.center" timestamp="1577141589869">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="582" height="206" key="GridCell.Tab.0.center/0.23.1440.843@0.23.1440.843" timestamp="1577136016390" />
-    <state width="582" height="206" key="GridCell.Tab.0.left" timestamp="1577136016389">
+    <state width="580" height="206" key="GridCell.Tab.0.center/0.23.1440.843@0.23.1440.843" timestamp="1577141589869" />
+    <state width="580" height="206" key="GridCell.Tab.0.left" timestamp="1577141589868">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="582" height="206" key="GridCell.Tab.0.left/0.23.1440.843@0.23.1440.843" timestamp="1577136016389" />
-    <state width="582" height="206" key="GridCell.Tab.0.right" timestamp="1577136016390">
+    <state width="580" height="206" key="GridCell.Tab.0.left/0.23.1440.843@0.23.1440.843" timestamp="1577141589868" />
+    <state width="580" height="206" key="GridCell.Tab.0.right" timestamp="1577141589869">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="582" height="206" key="GridCell.Tab.0.right/0.23.1440.843@0.23.1440.843" timestamp="1577136016390" />
+    <state width="580" height="206" key="GridCell.Tab.0.right/0.23.1440.843@0.23.1440.843" timestamp="1577141589869" />
     <state x="416" y="23" key="SettingsEditor" timestamp="1577055092693">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
