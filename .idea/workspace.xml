@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a88734-ded9-4cdb-8168-97ea37dc325c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarkovFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RandomTextStarterProgram/MarkovFour.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarkovRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RandomTextStarterProgram/MarkovRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RandomTextStarterProgram/MarkovRunner.class" afterDir="false" />
@@ -41,6 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,7 +53,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Tester">
+  <component name="RunManager" selected="Application.MarkovRunner">
     <configuration name="MarkovRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MarkovRunner" />
       <module name="RandomTextStarterProgram" />
@@ -75,8 +77,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tester" />
         <item itemvalue="Application.MarkovRunner" />
+        <item itemvalue="Application.Tester" />
         <item itemvalue="Application.MarkovZero" />
       </list>
     </recent_temporary>
@@ -104,7 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1577055028360</updated>
       <workItem from="1577055034543" duration="156000" />
-      <workItem from="1577113760652" duration="14354000" />
+      <workItem from="1577113760652" duration="24218000" />
+      <workItem from="1577195392670" duration="255000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1577055177754</created>
@@ -127,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577141870127</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Tester class">
+      <created>1577142530720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577142530720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,36 +147,41 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add getFollows method" />
     <MESSAGE value="add index to getRandomText &amp; fix getFollows method to work on strings of any length" />
-    <option name="LAST_COMMIT_MESSAGE" value="add index to getRandomText &amp; fix getFollows method to work on strings of any length" />
+    <MESSAGE value="add Tester class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Tester class" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="27" key="CommitChangelistDialog2" timestamp="1577141869540">
+    <state x="451" y="27" key="CommitChangelistDialog2" timestamp="1577142530226">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state x="505" y="27" key="CommitChangelistDialog2/0.23.1440.843@0.23.1440.843" timestamp="1577141869540" />
-    <state width="580" height="206" key="GridCell.Tab.0.bottom" timestamp="1577142394384">
+    <state x="451" y="27" key="CommitChangelistDialog2/0.23.1440.843@0.23.1440.843" timestamp="1577142530226" />
+    <state width="495" height="206" key="GridCell.Tab.0.bottom" timestamp="1577195611409">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="580" height="206" key="GridCell.Tab.0.bottom/0.23.1440.843@0.23.1440.843" timestamp="1577142394384" />
-    <state width="580" height="206" key="GridCell.Tab.0.center" timestamp="1577142394382">
+    <state width="495" height="206" key="GridCell.Tab.0.bottom/0.23.1440.843@0.23.1440.843" timestamp="1577195611409" />
+    <state width="580" height="206" key="GridCell.Tab.0.bottom/0.23.1440.844@0.23.1440.844" timestamp="1577149974635" />
+    <state width="495" height="206" key="GridCell.Tab.0.center" timestamp="1577195611408">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="580" height="206" key="GridCell.Tab.0.center/0.23.1440.843@0.23.1440.843" timestamp="1577142394382" />
-    <state width="580" height="206" key="GridCell.Tab.0.left" timestamp="1577142394382">
+    <state width="495" height="206" key="GridCell.Tab.0.center/0.23.1440.843@0.23.1440.843" timestamp="1577195611408" />
+    <state width="580" height="206" key="GridCell.Tab.0.center/0.23.1440.844@0.23.1440.844" timestamp="1577149974634" />
+    <state width="495" height="206" key="GridCell.Tab.0.left" timestamp="1577195611407">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="580" height="206" key="GridCell.Tab.0.left/0.23.1440.843@0.23.1440.843" timestamp="1577142394382" />
-    <state width="580" height="206" key="GridCell.Tab.0.right" timestamp="1577142394383">
+    <state width="495" height="206" key="GridCell.Tab.0.left/0.23.1440.843@0.23.1440.843" timestamp="1577195611407" />
+    <state width="580" height="206" key="GridCell.Tab.0.left/0.23.1440.844@0.23.1440.844" timestamp="1577149974633" />
+    <state width="495" height="206" key="GridCell.Tab.0.right" timestamp="1577195611408">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="580" height="206" key="GridCell.Tab.0.right/0.23.1440.843@0.23.1440.843" timestamp="1577142394383" />
+    <state width="495" height="206" key="GridCell.Tab.0.right/0.23.1440.843@0.23.1440.843" timestamp="1577195611408" />
+    <state width="580" height="206" key="GridCell.Tab.0.right/0.23.1440.844@0.23.1440.844" timestamp="1577149974634" />
     <state x="416" y="23" key="SettingsEditor" timestamp="1577055092693">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
     <state x="416" y="23" key="SettingsEditor/0.23.1440.843@0.23.1440.843" timestamp="1577055092693" />
-    <state x="785" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1577113761141">
+    <state x="785" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1577195392903">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state x="785" y="257" key="com.intellij.ide.util.TipDialog/0.23.1440.843@0.23.1440.843" timestamp="1577113761141" />
+    <state x="785" y="257" key="com.intellij.ide.util.TipDialog/0.23.1440.843@0.23.1440.843" timestamp="1577195392903" />
   </component>
 </project>
