@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a88734-ded9-4cdb-8168-97ea37dc325c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MarkovFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RandomTextStarterProgram/MarkovFour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarkovModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarkovRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RandomTextStarterProgram/MarkovRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RandomTextStarterProgram/MarkovRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +104,7 @@
       <updated>1577055028360</updated>
       <workItem from="1577055034543" duration="156000" />
       <workItem from="1577113760652" duration="24218000" />
-      <workItem from="1577195392670" duration="255000" />
+      <workItem from="1577195392670" duration="1503000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1577055177754</created>
@@ -137,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577142530720</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add MarkovFour class">
+      <created>1577195677571</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577195677571</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,37 +152,46 @@
     <MESSAGE value="add getFollows method" />
     <MESSAGE value="add index to getRandomText &amp; fix getFollows method to work on strings of any length" />
     <MESSAGE value="add Tester class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Tester class" />
+    <MESSAGE value="add MarkovFour class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MarkovFour class" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="27" key="CommitChangelistDialog2" timestamp="1577142530226">
+    <state x="451" y="27" key="CommitChangelistDialog2" timestamp="1577195676988">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state x="451" y="27" key="CommitChangelistDialog2/0.23.1440.843@0.23.1440.843" timestamp="1577142530226" />
-    <state width="495" height="206" key="GridCell.Tab.0.bottom" timestamp="1577195611409">
+    <state x="451" y="27" key="CommitChangelistDialog2/0.23.1440.843@0.23.1440.843" timestamp="1577195676988" />
+    <state x="552" y="325" width="803" height="199" key="Github.ShareDialog" timestamp="1577195845341">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="495" height="206" key="GridCell.Tab.0.bottom/0.23.1440.843@0.23.1440.843" timestamp="1577195611409" />
+    <state x="552" y="325" width="803" height="199" key="Github.ShareDialog/0.23.1440.843@0.23.1440.843" timestamp="1577195845341" />
+    <state width="495" height="206" key="GridCell.Tab.0.bottom" timestamp="1577196191006">
+      <screen x="0" y="23" width="1440" height="843" />
+    </state>
+    <state width="495" height="206" key="GridCell.Tab.0.bottom/0.23.1440.843@0.23.1440.843" timestamp="1577196191006" />
     <state width="580" height="206" key="GridCell.Tab.0.bottom/0.23.1440.844@0.23.1440.844" timestamp="1577149974635" />
-    <state width="495" height="206" key="GridCell.Tab.0.center" timestamp="1577195611408">
+    <state width="495" height="206" key="GridCell.Tab.0.center" timestamp="1577196191005">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="495" height="206" key="GridCell.Tab.0.center/0.23.1440.843@0.23.1440.843" timestamp="1577195611408" />
+    <state width="495" height="206" key="GridCell.Tab.0.center/0.23.1440.843@0.23.1440.843" timestamp="1577196191005" />
     <state width="580" height="206" key="GridCell.Tab.0.center/0.23.1440.844@0.23.1440.844" timestamp="1577149974634" />
-    <state width="495" height="206" key="GridCell.Tab.0.left" timestamp="1577195611407">
+    <state width="495" height="206" key="GridCell.Tab.0.left" timestamp="1577196191005">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="495" height="206" key="GridCell.Tab.0.left/0.23.1440.843@0.23.1440.843" timestamp="1577195611407" />
+    <state width="495" height="206" key="GridCell.Tab.0.left/0.23.1440.843@0.23.1440.843" timestamp="1577196191005" />
     <state width="580" height="206" key="GridCell.Tab.0.left/0.23.1440.844@0.23.1440.844" timestamp="1577149974633" />
-    <state width="495" height="206" key="GridCell.Tab.0.right" timestamp="1577195611408">
+    <state width="495" height="206" key="GridCell.Tab.0.right" timestamp="1577196191006">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="495" height="206" key="GridCell.Tab.0.right/0.23.1440.843@0.23.1440.843" timestamp="1577195611408" />
+    <state width="495" height="206" key="GridCell.Tab.0.right/0.23.1440.843@0.23.1440.843" timestamp="1577196191006" />
     <state width="580" height="206" key="GridCell.Tab.0.right/0.23.1440.844@0.23.1440.844" timestamp="1577149974634" />
     <state x="416" y="23" key="SettingsEditor" timestamp="1577055092693">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
     <state x="416" y="23" key="SettingsEditor/0.23.1440.843@0.23.1440.843" timestamp="1577055092693" />
+    <state x="640" y="164" key="Vcs.Push.Dialog.v2" timestamp="1577195682500">
+      <screen x="0" y="23" width="1440" height="843" />
+    </state>
+    <state x="640" y="164" key="Vcs.Push.Dialog.v2/0.23.1440.843@0.23.1440.843" timestamp="1577195682500" />
     <state x="785" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1577195392903">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
